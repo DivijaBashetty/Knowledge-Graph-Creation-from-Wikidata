@@ -1,1 +1,4 @@
 # Knowledge-Graph-Creation-from-Wikidata
+1. Data extraction : Execute Data_extraction.ipynb followed by Data_preprocessin to extract data from wikidata in csv format. The file will be saved in drive, for this you have to mount your drive with google colab. You can change the path as required to save the data file.
+2. Graph Creation : Executr Graph_creation.ipynb. This will create a graph in neo4j graph database. For this you have to provide the database password and bolt address in the code.
+3. Web Application : It is mandatory to keep index.html file in templates folder. Run the main.py file. This will provide an IP address, enter this in browser or click on this address to view the application. This application is a very basic application. This can be extended adding more features and making more user friendly.
